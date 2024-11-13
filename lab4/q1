@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Lab 4 - Q1</title>
+</head>
+<body>
+  <div id="myElement">
+    <p id="text">Welcome to my website!</p>
+  </div>
+
+  <button onclick="changeContent()">Click Here!</button>
+
+  <script>
+    function changeContent() {
+      document.getElementById("text").innerHTML = "Hello there!";
+    }
+  </script>
+</body>
+</html>
